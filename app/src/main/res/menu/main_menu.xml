@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/choice_1"
+        app:showAsAction="always"
+        android:icon="@drawable/prize"
+        android:title="@string/choice_1" />
+
+    <item
+        android:id="@+id/choice_2"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/bitcoin"
+        android:title="@string/choice_2" />
+
+</menu>
